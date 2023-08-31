@@ -1,0 +1,16 @@
+body {
+  width: 200px;
+  padding: 10px;
+}
+
+.timer {
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
