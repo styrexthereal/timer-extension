@@ -3,7 +3,12 @@
   "name": "Simple Timer",
   "version": "1.0",
   "description": "A simple timer extension",
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "storage",
+    "notifications"
+  ],  
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -16,5 +21,9 @@
     "16": "images/icon16.png",
     "64": "images/icon64.png",
     "128": "images/icon128.png"
+  },
+  "background": {
+    "scripts": ["background.ts"],
+    "persistent": false
   }
 }
