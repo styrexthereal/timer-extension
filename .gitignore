@@ -1,1 +1,33 @@
-/background.js
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled and bundled files
+dist/
+
+# Ignore environment-specific configuration files (if any)
+.env
+
+# Ignore any secret keys or sensitive information
+secrets.json
+
+# Ignore any temporary files or logs
+*.log
+*.tmp
+*.swp
+
+# Ignore any OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific configuration files
+.vscode/
+.idea/
+
+# Ignore npm's debug log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore any other generated or build files
+/build/
+out/
