@@ -10,20 +10,16 @@
     "notifications"
   ],  
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "src/popup.html",
     "default_icon": {
-      "16": "images/icon16.png",
-      "64": "images/icon64.png",
-      "128": "images/icon128.png"
+      "16": "src/assets/images/icon16.png",
+      "64": "src/assets/images/icon64.png",
+      "128": "src/assets/images/icon128.png"
     }
   },
   "icons": {
-    "16": "images/icon16.png",
-    "64": "images/icon64.png",
-    "128": "images/icon128.png"
-  },
-  "background": {
-    "scripts": ["background.ts"],
-    "persistent": false
+    "16": "src/assets/images/icon16.png",
+    "64": "src/assets/images/icon64.png",
+    "128": "src/assets/images/icon128.png"
   }
 }
